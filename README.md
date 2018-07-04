@@ -26,4 +26,4 @@ This would find the PN of image ID 340 in the test images from the MNIST dataset
 
 From left to right: the original image, the pertinent negative component and the image composed of the original image and PN. If we add PN to Image 340, it would be classified as 5.
 
-The arugment `kappa` (confidence lebel) and `gamma` (regularization coefficient of autoencoder) are tuning parameters for the optimization setup. Both PP and PN are used to explain the model prediction results. For more details, please refer to the paper.
+The argument `kappa` (confidence lebel) and `gamma` (regularization coefficient of autoencoder) are tuning parameters for the optimization setup. Both PP and PN are used to explain the model prediction results. For more details, please refer to the paper.
